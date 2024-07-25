@@ -9,20 +9,24 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import ProfilePic from "@/public/ProfilePic.jpg"
-import Typewriter from 'typewriter-effect'; 
+import ProfilePic from "@/public/ProfilePic.jpg";
+import Typewriter from "typewriter-effect";
 import { useTypewriter } from "react-simple-typewriter";
-import Clock from "react-live-clock"; 
+import Clock from "react-live-clock";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const [typeEffect] = useTypewriter({
-    words: ["Greetings! Beatrice here!", "I mainly use React(Next.Js)!", "Developing website is my main work"],
+    words: [
+      "Greetings! Beatrice here!",
+      "I mainly use React(Next.Js)!",
+      "Developing website is my main work",
+    ],
     loop: true,
     typeSpeed: 50,
     deleteSpeed: 50,
-  }); 
+  });
 
   return (
     <section
@@ -112,13 +116,12 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/BeatriceGraciaPhoebeGoutama-CV.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-
 
         {/* <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

@@ -67,7 +67,7 @@ export const experiencesData = [
     description:
       "After 3.5 years, I'm currently waiting to receive my diploma. My current GPA is 3.31",
     icon: React.createElement(LuGraduationCap),
-    date: "Mar 2023 - Sep 2023",
+    date: "July 2024",
   },
 ] as const;
 
