@@ -12,27 +12,27 @@ import tompsAsset from "@/public/tompsAsset.png"
 export const links = [
   {
     name: "Home",
-    hash: "#home",
+    hash: "https://beatricegracia-portfolio.netlify.app/#home",
   },
   {
     name: "About",
-    hash: "#about",
+    hash: "https://beatricegracia-portfolio.netlify.app/#about",
   },
   {
     name: "Skills",
-    hash: "#skills",
+    hash: "https://beatricegracia-portfolio.netlify.app/#skills",
   },
   {
     name: "Experience",
-    hash: "#experience",
+    hash: "https://beatricegracia-portfolio.netlify.app/#experience",
   },
   {
     name: "Projects",
-    hash: "#projects",
+    hash: "https://beatricegracia-portfolio.netlify.app/#projects",
   },
   {
     name: "Contact",
-    hash: "#contact",
+    hash: "https://beatricegracia-portfolio.netlify.app/#contact",
   },
 ] as const;
 
