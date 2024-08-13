@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "University Graduation",
     location: "BINUS University",
     description:
-      "After 3.5 years, I'm currently waiting to receive my diploma. My current GPA is 3.31",
+      "After 3.5 years, I'm currently waiting to receive my diploma. My current GPA is 3.37",
     icon: React.createElement(LuGraduationCap),
     date: "July 2024",
   },
